@@ -1,6 +1,7 @@
 ---
 - name: Exercise #1
-  hosts: localhost
-
+  hosts: 52.12.213.144
+  remote_user: ubuntu
   roles:
-   - print
+   - prepare
+   - apache
