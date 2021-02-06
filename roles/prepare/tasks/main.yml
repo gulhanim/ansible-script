@@ -2,7 +2,7 @@
   become: true
   become_method: sudo
   apt: 
-    update_cache: true
+    update_cache: yes
 
 - name: "remove dependencies that are no longer required"
   become: true
